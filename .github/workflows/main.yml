@@ -38,7 +38,4 @@ jobs:
 	run: |
           echo ${{secrets.MY_ENV_NAME}}
 	  echo ${{secrets.MY_ENV_PASS}}
-
-
-
      
