@@ -35,9 +35,9 @@ jobs:
           echo $GITHUB_REPOSITORY
           
       - name: Github Actions Secret 변수 사용해보기
-				run: |
-					echo ${{secrets.MY_ENV_NAME}}
-					echo ${{ secrets.MY_ENV_PASS }}
+	run: |
+	  echo ${{secrets.MY_ENV_NAME}}
+          echo ${{ secrets.MY_ENV_PASS }}
     
      
 
